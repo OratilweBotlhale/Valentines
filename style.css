@@ -1,0 +1,118 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    color: #ffffff;
+    line-height: 1.6;
+    justify-content: center;
+    background: radial-gradient(circle at center, #69015b, #530011, rgb(147, 1, 98));
+    background-size: 400% 400%;
+    text-align: center;
+    animation: gradientBG 12s ease infinite;
+    position: relative; }
+
+@keyframes gradientBG {
+0% { background-position: 0% 50%; }
+50% { background-position: 100% 50%; }
+100% { background-position: 0% 50%; }
+}
+
+/* Hearts / eyes motif */
+.hearts {
+    font-size: 2em;
+    text-shadow: 0 0 30px rgb(253, 251, 255);
+    color: #ffffff;
+    margin: 10px 0;
+}
+
+h1 {
+    color: #f8f8f8;
+    text-shadow: 0 0 30px rgba(255, 255, 255, 0.951);
+    font-size: 2.2em;
+    margin-bottom: 5px;
+}
+
+p {
+    font-size: 1.1em;
+    margin: 10px 0;
+}
+
+/* Video styles */
+video {
+    max-width: 20%;
+    min-height: 10%;
+    border-radius: 15px;
+    margin: 10px 0;
+    box-shadow: 0px 4px 15px rgba(255, 255, 255, 0.936);
+}
+
+/* Button styles */
+a.button {
+    display: inline-block;
+    padding: 15px 30px;
+    margin: 25px 0;
+    background-color: #450025;
+    color: #fff;
+    border-radius: 15px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: transform 0.2s;
+}
+
+a.button:hover {
+    transform: scale(1.05);
+}
+.count-body {
+    background: linear-gradient(135deg, #fb95c1, #fff1f7);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    font-family: 'Poppins', sans-serif;
+    color: #000000;
+    margin:auto;
+  }
+
+  .card {
+    background: white;
+    color: black;
+    padding: 40px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+    max-width: 400px;
+    align-self: center;
+  }
+
+  .count-h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+  }
+
+  .timer {
+    font-size: 1.2rem;
+    margin: 20px 0;
+    font-weight: 400;
+  }
+
+  .milestone {
+    background: #fff1f7;
+    padding: 15px;
+    border-radius: 15px;
+    margin-top: 20px;
+    font-size: 0.95rem;
+  }
+
+  .count-heart {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    animation: pulse 1.5s infinite;
+  }
+
+  @keyframes pulse {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.1); }
+    100% { transform: scale(1); }
+  }
